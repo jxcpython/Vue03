@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+
+</div>
+<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+<script src="js/vue.min.js"></script>
+<script src="js/vue-router.3.0.1.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {},
+
+
+    })
+
+    // localStorage.name = "百知";
+    // console.log(localStorage.name);
+
+    // 删除数据
+    // localStorage.removeItem("name")
+    // console.log(localStorage.name)
+
+    // localStorage 数据的储存方式
+    localStorage.age = 12;
+    localStorage['bir'] = "2012-12-12";
+    localStorage.setItem("pwd", "123456");
+
+    // 获取localStorage数据的方式
+    // let age = localStorage.age;
+    // let age2 = localStorage['age'];
+    // let bir = localStorage['bir'];
+    // let pwd = localStorage.getItem("pwd");
+    // console.log(age, age2, bir, pwd)
+
+    // 遍历数据
+    // for (let n = 0; n < localStorage.length; n++) {
+    //     console.log("第" + n + "条数据key为" + localStorage.key(n) + ",value为" + localStorage.getItem(localStorage.key(n)))
+    // }
+
+    // 删除所有
+    // localStorage.clear();
+</script>
+</body>
+</html>
